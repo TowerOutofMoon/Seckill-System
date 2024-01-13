@@ -1,0 +1,282 @@
+label {
+    font-weight: 400 !important;
+}
+
+.navbar-item {
+    font-size: 14px;
+    line-height: 30px;
+    color: #102b6a;
+}
+
+/* 导航栏底部 */
+.navbar-footer {
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%), radial-gradient(at top center, rgba(255, 255, 255, 0.40) 0%, rgba(0, 0, 0, 0.40) 120%) #989898;
+    background-blend-mode: multiply, multiply;
+}
+
+.navbar-footer .navbar-footer-content {
+    line-height: 150px;
+    margin: 0 25%;
+    border-top: 1px solid #E3E5E7;
+}
+
+.navbar-footer .navbar-footer-list {
+    list-style: none;
+    text-align: center;
+}
+
+.navbar-footer .navbar-footer-list .navbar-footer-list-item {
+    float: left;
+}
+
+.navbar-footer .navbar-footer-list .navbar-footer-list-item a {
+    font-size: 12px;
+    color: #fff;
+    padding: 0 20px;
+}
+
+.navbar-footer .navbar-footer-list .navbar-footer-list-item a:hover {
+    color: #40B3EC;
+}
+
+
+/* 注册界面 */
+.register-content {
+    min-height: 510px;
+    padding-top: 50px;
+    /*background-color: #eee;*/
+    background: url("../images/register-banner.jpg");
+    /*background: linear-gradient(to right, #0f2b57 0%, #bfc3cb 100%);*/
+}
+
+.register-item {
+    color: #000;
+}
+
+.register-item .title {
+    position: relative;
+    left: 40%;
+    font-size: 20px;
+    color: #cb1042;
+    letter-spacing: 0.2em;
+    font-weight: 700;
+}
+
+/* 注册成功提示框 */
+.flash-container {
+    padding-top: 50px;
+    height: 500px;
+}
+
+/* 登录界面 */
+.login-content {
+    min-height: 500px;
+    margin-bottom: 30px;
+    background: url('../images/login-banner.jpg');
+    /*background-image: linear-gradient(-45deg, #aac4bc 0%, #eca8a8 100%, #eed5a9 100%);*/
+}
+
+.login-form {
+    position: absolute;
+    height: 400px;
+    width: 600px;
+    padding-top: 50px;
+    right: 50px;
+    top: 50px;
+    z-index: 999;
+    color: rgb(54, 41, 41);
+    background-color: rgba(196, 191, 191, 0.1);
+}
+
+.login-code {
+    position: absolute;
+    top: 50px;
+}
+
+.login-code-box {
+    width: 901px;
+    height: 400px;
+    padding-top: 60px;
+    z-index: 999;
+    text-align: center;
+    background-color: rgba(196, 191, 191, 0.1);
+
+}
+
+.login-code-box h1 {
+    letter-spacing: 0.2em;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.login-code-box img {
+    width: 110px;
+    height: 110px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+/* 银行介绍页 */
+.sxbank {
+    height: 500px;
+    width: 1100px;
+    background-color: #fff;
+    padding: 50px;
+    box-shadow: 0px 5px 25px #e2e4e6;
+    border-radius: 15px;
+}
+
+.sxbank .sxbank-img {
+    float: left;
+    margin-right: 20px;
+}
+
+.sxbank .title {
+    color: rgb(190, 18, 18)
+}
+
+/* 商品展示页 */
+.products-left,.products-right {
+    background: url("../images/product-display.jpg");
+}
+
+.products-list {
+    min-height: 550px;
+}
+
+.products-list .titles {
+    height: 34px;
+    margin-bottom: 20px;
+    /* background-color:pink; */
+}
+
+.products-list .titles h2 {
+    display: inline-block;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    line-height: 34px;
+    margin: 0 5px;
+}
+
+.products-list .titles i {
+    position: relative;
+    display: inline-block;
+    top: -8px;
+    height: 2px;
+    width: 493px;
+    border-bottom: 1px solid rgb(136, 136, 136);
+}
+
+.products-list .products ul li {
+    float: left;
+    list-style: none;
+    width: 363px;
+}
+
+.products-list .products ul li .info {
+    position: relative;
+    width: 96%;
+    padding: 30px 0;
+    margin: 0 auto;
+    text-align: center;
+    background: #fff;
+    border: 1px solid #EEE;
+}
+
+.products-list .products ul li .info:hover {
+    transform: translateY(-5px);
+    transition: all .3s;
+    box-shadow: 1px 2px 1px 1px #E3E5E7;
+}
+
+.products .product-name {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* .products .product-name:hover {
+    overflow: visible;
+    white-space: normal; 
+    word-wrap: break-word; 
+} */
+
+.products .product-rate {
+    color: red;
+    font-weight: 700;
+}
+
+.products .product-add {
+    color: #9499a0;
+}
+
+.products .product-pay {
+    color: #666;
+}
+
+.products .product-tag {
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    padding: 0 15px;
+    border: 1px solid #FF4E00;
+    margin-right: 10px;
+}
+
+.products p {
+    height: 50px;
+    line-height: 50px;
+    margin: 30px 20px 0 20px;
+    border: 1px solid #FF4E00;
+}
+
+/*我的订单页*/
+.order-page, .user-products-page, .product-intro-page {
+    padding-top: 10px;
+    min-height: 550px;
+    background-color: #eee;
+}
+
+.order-content, .user-products-content, .product-info-content {
+    padding: 25px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+.order-list {
+    list-style: none;
+}
+
+.order-list li {
+    margin-bottom: 20px;
+}
+
+/*商品信息详情页*/
+.product-info-content .intro-title {
+    border-bottom: 1px solid #E3E5E7;
+    margin-bottom: 10px;
+}
+
+.product-info-content .intro-small {
+    font-size: 14px;
+    color: #777777;
+}
+
+.product-info-content .intro-list {
+    list-style: none;
+}
+
+.product-info-content .intro-list li {
+    margin-left: -40px;
+}
+
+.product-info-content .intro-list li span {
+    color: #8d9093;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}

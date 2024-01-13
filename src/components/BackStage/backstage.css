@@ -1,0 +1,101 @@
+/*后台全局样式*/
+.site-layout-background .ant-card-head .ant-card-head-title {
+    color: #2e6da4;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.site-layout-background .ant-table-tbody .ant-table-row:nth-child(even) {
+    background-color: #eee;
+}
+
+/*布局样式*/
+#components-layout-demo-side .logo {
+    height: 32px;
+    margin: 16px;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.site-layout .site-layout-background {
+    background: #fff;
+}
+
+.site-layout .site-layout-item {
+    position: relative;
+    left: 85%;
+}
+
+/*后台标题样式*/
+.site-title {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    height: 80px;
+    color: #fff;
+}
+
+.site-title-name {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 5px 0 0 5px;
+}
+
+/*公司卡片样式*/
+.company-card .ant-card-head {
+    background-color: #3071B9;
+}
+
+.company-card .ant-card-head .ant-card-head-title {
+    color: #fff !important;
+    /*font-weight: 400 !important;*/
+}
+
+/*公司账户样式*/
+.company-account {
+    text-align: center;
+    min-height: 400px;
+    width: 100%;
+}
+
+.company-account .money {
+    font-size: 20px;
+    font-weight: 700;
+    color: #cb1042;
+}
+
+.company-profit,.company-season {
+    width: 100%;
+    height: 500px;
+}
+
+.company-card .ant-card-head .ant-card-head-title {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/*用户添加样式*/
+.my-add-card .ant-card-head {
+    background-color: #b79716;
+    color: #fff;
+}
+
+.my-add-card .ant-card-head .ant-card-head-title {
+    color: #fff !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+}
+
+.my-add-card .release .ant-col {
+    display: inline-block;
+}
+
+.my-user-control-card .ant-card-head {
+    background-color: #3071B9;
+}
+.my-user-control-card .ant-card-head .ant-card-head-title {
+    color: #fff;
+}
+
+
+

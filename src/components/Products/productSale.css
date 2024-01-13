@@ -1,0 +1,28 @@
+.ant-table-thead > tr > th {
+    color: white;
+    text-align: center;
+    background: #3071b9 !important;
+}
+/*表头第一个产品名称居中*/
+.ant-table-thead > tr > th:first-child {
+    text-align: center !important;
+}
+
+.product-sale-table .ant-table-tbody > tr:nth-child(even) {
+    background-color: #eee !important;
+}
+
+.ant-table-tbody > tr > td {
+    text-align: center;
+    background: rgba(255,255,255,0) !important;
+}
+
+/*产品名称数据列居左*/
+.first-left {
+    text-align: left !important;
+}
+/*按钮选择项*/
+.option-item:hover {
+    background-color: #1890FF;
+    color: #fff;
+}
