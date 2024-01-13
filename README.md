@@ -4,20 +4,28 @@
 3.验证
 
 ## 知识点
-redux: 配置store,reducer,并在入口文件src/index.js中引入
-安装命令：
+1.Redux
+
+配置store,reducer,并在入口文件src/index.js中引入
+
+2.安装命令
+```
 npm i xx -g: npm install xx --global 全局安装,把模块安装到操作系统上
 npm i xx -D: npm install xx --save-dev 安装的xx不随打包上线
 npm i xx -S: npm install xx --save 安装的xx随打包上线
+```
 
 ## 环境搭建
 1.安装依赖
+```
 npm install --save react-redux redux redux-thunk
 npm install --save-dev redux-devtools-extension redux-logger
-
+```
 2.搭建服务器
+```
 npm install --save express
 npm install --save nodemon
+```
 通过使用nodemon对node服务器进行自动重启
 
 ## 配置路由
